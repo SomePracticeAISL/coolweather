@@ -5,6 +5,7 @@
 
     <version value="1" />
 
+    <!--将数据库名指定成cool weather，数据库版本指定成1，并将province、city、county这三个实体类添加到映射列表当中-->
     <list>
         <mapping class="com.coolweather.android.db.Province" />
         <mapping class="com.coolweather.android.db.City" />
